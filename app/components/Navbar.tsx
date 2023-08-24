@@ -2,7 +2,7 @@ import Link from "next/link"
 
 const Navbar = () => {
     return (
-        <div className="flex bg-500 w-full h-24 items-center  bg-slate-200 flex-inline align-middle rounded-lg">
+        <div className="flex bg-500 w-full h-24 items-center  bg-slate-200 flex-inline align-middle rounded-lg font-sans font-medium">
             <div className="pr-24 ml-10 md:ml-10 sm:ml-2">
                 <p className="text-green">HULU</p>
             </div>
