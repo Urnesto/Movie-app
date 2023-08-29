@@ -4,7 +4,6 @@ import { Roboto } from 'next/font/google'
 
 import MainF from "./components/footer"
 import { Navbar } from './components/Navbar'
-
 const roboto = Roboto({ subsets:['cyrillic'], weight:['100','300', '400', '500', '700', '900'], })
 
 export const metadata: Metadata = {
@@ -22,9 +21,9 @@ export default function RootLayout({
       <body className={roboto.className}>
         <header className='w-full h-48'>
         <Navbar/>
-          </header>
+        </header>
         {children}
-      <MainF></MainF>
+      <MainF/>
       </body>
     </html>
   )
